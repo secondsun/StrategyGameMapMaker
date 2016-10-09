@@ -29,6 +29,8 @@ import java.io.ObjectOutput;
  */
 public class Tile implements Externalizable{
 
+    private static final long serialVersionUID = 1L;
+
     @Override
     public void writeExternal(ObjectOutput out) throws IOException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.

@@ -35,6 +35,7 @@ public class EditorWindow extends javax.swing.JFrame {
         initComponents();
         initFileMenu();
         initWindow();
+        initTabbedPane();
     }
 
     /**
@@ -105,5 +106,9 @@ public class EditorWindow extends javax.swing.JFrame {
 
     private void initWindow() {
         setTitle("Stratagey Game Map Editor");
+    }
+
+    private void initTabbedPane() {
+        this.tabbedPanel.addTab("Map 1", new EditorPanel());
     }
 }

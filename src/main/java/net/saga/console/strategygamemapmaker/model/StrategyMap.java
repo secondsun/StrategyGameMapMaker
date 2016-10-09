@@ -31,6 +31,8 @@ import java.util.List;
  */
 public class StrategyMap implements Externalizable {
 
+    private static final long serialVersionUID = 1L;
+    
     private int width = 24;
     private int height = 24;
     private List<Tile> tiles = new ArrayList<>(width * height);
